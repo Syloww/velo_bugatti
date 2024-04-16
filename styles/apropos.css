@@ -3,8 +3,8 @@
     src: url(/fonts/Louis\ George\ Cafe\ Bold.ttf);
 }
 @font-face {
-    font-family: Louis;
-    src: url(/fonts/Louis\ George\ Cafe\ Bold.ttf);
+    font-family: nexa;
+    src: url(/fonts/Nexa-Heavy.ttf);
 }
 
 body{
@@ -23,6 +23,9 @@ header{
     display: flex;
     justify-content: center;
     margin: 40px;
+    top: 0;
+    position: sticky;
+    z-index: 99;
 }
 .alllien{
     gap: 40px;
@@ -34,9 +37,14 @@ header{
     margin-left: 40px;
     margin-right: 40px;
     font-family: Louis;
-    color: #116809;
+    color: #095f68;
     font-weight: bold;
     font-size: 16px;
+}
+.active{
+    padding: 9px 20px 9px 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
 }
 
 .nous {
@@ -76,24 +84,44 @@ header{
 
 
 .Salim p {
-    text-align: justify;
+    text-align: left;
     width: 450px;
+    font-family: Louis;
     color: #095f68;
 }
 
 .Sacha p {
-    text-align: justify;
+    text-align: left;
     width: 450px;
     color: #095f68;
+    font-family: Louis;
 }
 .texte1 h1 {
     color: #095f68;
+    font-family: nexa;
 }
 .texte2 h1 {
    color: #095f68;
+   font-family: nexa;
 }
 
 hr {
     color: black;
     width: 1100;
+}
+
+/* FOOTER */
+footer{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_liens{
+    display: flex;
+    flex-direction: column;
+}
+.footer_l{
+    color: #095f68;
+    text-align: right;
+    font-weight: bold;
 }

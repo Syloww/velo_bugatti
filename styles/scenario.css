@@ -73,6 +73,18 @@ main{
     font-size: 17px;
     color: rgb(86, 86, 86);
 }
+/* MOODBOARD */
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.moodboard{
+    border-radius: 30px;
+    width: 400px;
+    margin: 10px;
+}
+
 
 
 footer{
