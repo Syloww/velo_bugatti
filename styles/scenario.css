@@ -1,4 +1,3 @@
-/* TOUTE LES POLICES ICI */
 @font-face {
     font-family: Louis;
     src: url(/fonts/Louis\ George\ Cafe\ Bold.ttf);
@@ -7,22 +6,31 @@
     font-family: nexa;
     src: url(/fonts/Nexa-Heavy.ttf);
 }
-
 body{
-    height: 100%;
-    background: linear-gradient(0deg, rgba(254,244,224,1) 0%, rgba(255,214,214,0.5627043053549545) 50%, rgba(188, 247, 226, 0.487) 100%);
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background: linear-gradient(0deg, rgba(254,244,224,1) 0%, rgba(255,214,214,0.5627043053549545) 50%, rgba(188, 247, 226, 0.487) 100%);
     margin: 0px;
 }
 a{
     text-decoration: none;
+}
+.fils{
+    margin: 30px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.fil_lien{
+    color: #095f68;
 }
 /* LIEN */
 header{
     display: flex;
     justify-content: center;
     margin: 40px;
+
     top: 0;
     position: sticky;
     z-index: 99;
@@ -51,51 +59,23 @@ header{
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
 }
-
-.telecharger{
-    margin: 30px;
-    text-align: center;
-    font-family: nexa;
-    padding: 20px;
+/* MAIN */
+main{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #095f68;
     border-radius: 30px;
-    color: #ffffff;
-    background-color: #095f68;
-}
-
-.dossier{
-    display: flex;
-    flex-direction: column;
+    padding: 40px;
     margin: 30px;
-    gap: 40px;
+    background: linear-gradient(0deg, rgba(254,244,224,1) 0%, rgba(255,214,214,0.5627043053549545) 50%, rgba(188, 247, 226, 0.487) 100%);
 }
-.document{
-    align-items: center;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.633);
-    border-radius: 20px;
-    transition: 0.3s;
-}
-.document:hover{
-    background-color: rgb(255, 255, 255);
-}
-.doc_info{
-    display: flex;
-    flex-direction: column;
-}
-.doc_titre{
+.description{
     font-family: nexa;
-    font-size: 40px;
-    color: #095f68;
-}
-.doc_descri{
-    font-family: nexa;
-    font-size: 16px;
-    color: #4b4b4b;
+    font-size: 17px;
+    color: rgb(86, 86, 86);
 }
 
-/* FOOTER */
+
 footer{
     padding: 50px;
     display: flex;

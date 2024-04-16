@@ -17,11 +17,23 @@ body{
 a{
     text-decoration: none;
 }
+.fils{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.fil_lien{
+    color: #095f68;
+}
 /* LIEN */
 header{
     display: flex;
     justify-content: center;
     margin: 40px;
+
+    top: 0;
+    position: sticky;
+    z-index: 99;
 }
 .alllien{
     gap: 40px;
@@ -33,14 +45,14 @@ header{
     margin-left: 40px;
     margin-right: 40px;
     font-family: Louis;
-    color: #116809;
+    color: #095f68;
     font-weight: bold;
     font-size: 16px;
 }
 .titre{
     font-family: Louis;
     font-size: 40px;
-    color: #116809;
+    color: #095f68;
 }
 .active{
     padding: 9px 20px 9px 20px;
@@ -55,4 +67,20 @@ main{
     font-family: nexa;
     font-size: 17px;
     color: rgb(86, 86, 86);
+}
+
+
+footer{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_liens{
+    display: flex;
+    flex-direction: column;
+}
+.footer_l{
+    color: #095f68;
+    text-align: right;
+    font-weight: bold;
 }
