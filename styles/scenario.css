@@ -73,6 +73,17 @@ main{
     font-size: 17px;
     color: rgb(86, 86, 86);
 }
+h1{
+    font-family: nexa;
+    color: #095f68;
+}
+h2{
+    font-family: nexa;
+    color: #095f68;
+}
+p{
+    color: #095f68;
+}
 /* MOODBOARD */
 .images{
     display: flex;
