@@ -1,0 +1,79 @@
+/* TOUTE LES POLICES ICI */
+@font-face {
+    font-family: Louis;
+    src: url(/fonts/Louis\ George\ Cafe\ Bold.ttf);
+}
+@font-face {
+    font-family: nexa;
+    src: url(/fonts/Nexa-Heavy.ttf);
+}
+body{
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(254,244,224,1) 0%, rgba(255,214,214,0.5627043053549545) 50%, rgba(188, 247, 226, 0.487) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+/* LIEN */
+header{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.alllien{
+    gap: 40px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgba(217, 217, 217, 0.841);
+}
+.lien{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Louis;
+    color: #116809;
+    font-weight: bold;
+    font-size: 16px;
+}
+.titre{
+    font-family: Louis;
+    font-size: 40px;
+    color: #116809;
+}
+.active{
+    padding: 9px 20px 9px 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.dossier{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    gap: 40px;
+}
+.document{
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.633);
+    border-radius: 20px;
+}
+.doc_info{
+    display: flex;
+    flex-direction: column;
+}
+.doc_titre{
+    font-family: nexa;
+    font-size: 40px;
+    color: #116809;
+}
+.doc_descri{
+    font-family: nexa;
+    font-size: 16px;
+    color: #4b4b4b;
+}
