@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Louis;
+    src: url(/fonts/Louis\ George\ Cafe\ Bold.ttf);
+}
+@font-face {
+    font-family: Louis;
+    src: url(/fonts/Louis\ George\ Cafe\ Bold.ttf);
+}
+
+body{
+    
+    background: linear-gradient(0deg, rgba(254,244,224,1) 0%, rgba(255,214,214,0.5627043053549545) 50%, rgba(188, 247, 226, 0.487) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+/* LIEN */
+header{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.alllien{
+    gap: 40px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgba(217, 217, 217, 0.841);
+}
+.lien{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Louis;
+    color: #116809;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nous {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.Salim {
+    display: flex;
+    padding: 50px;
+    
+    align-items: center;
+    gap: 200px;
+}
+
+.Salim img{
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+
+}
+.Sacha img{
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+
+}
+.Sacha {
+    display: flex;
+    padding: 50px;
+    
+    align-items: center;
+    gap: 200px;
+   
+}
+
+
+.Salim p {
+    text-align: justify;
+    width: 450px;
+    color: #095f68;
+}
+
+.Sacha p {
+    text-align: justify;
+    width: 450px;
+    color: #095f68;
+}
+.texte1 h1 {
+    color: #095f68;
+}
+.texte2 h1 {
+   color: #095f68;
+}
+
+hr {
+    color: black;
+    width: 1100;
+}

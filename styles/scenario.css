@@ -7,7 +7,7 @@
     src: url(/fonts/Nexa-Heavy.ttf);
 }
 body{
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background: linear-gradient(0deg, rgba(254,244,224,1) 0%, rgba(255,214,214,0.5627043053549545) 50%, rgba(188, 247, 226, 0.487) 100%);
@@ -67,7 +67,6 @@ main{
     border-radius: 30px;
     padding: 40px;
     margin: 30px;
-    background: linear-gradient(0deg, rgba(254,244,224,1) 0%, rgba(255,214,214,0.5627043053549545) 50%, rgba(188, 247, 226, 0.487) 100%);
 }
 .description{
     font-family: nexa;
