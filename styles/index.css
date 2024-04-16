@@ -1,17 +1,17 @@
-/* TOUTE LES POLICES ICI */
 @font-face {
     font-family: Louis;
     src: url(/fonts/Louis\ George\ Cafe\ Bold.ttf);
 }
 @font-face {
-    font-family: Louis;
-    src: url(/fonts/Louis\ George\ Cafe\ Bold.ttf);
+    font-family: nexa;
+    src: url(/fonts/Nexa-Heavy.ttf);
 }
 body{
     height: 100vh;
     background: linear-gradient(0deg, rgba(254,244,224,1) 0%, rgba(255,214,214,0.5627043053549545) 50%, rgba(188, 247, 226, 0.487) 100%);
     background-repeat: no-repeat;
     background-size: cover;
+
     margin: 0px;
 }
 a{
@@ -46,4 +46,13 @@ header{
     padding: 9px 20px 9px 20px;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
+}
+/* MAIN */
+main{
+    margin: 30px;
+}
+.description{
+    font-family: nexa;
+    font-size: 17px;
+    color: rgb(86, 86, 86);
 }

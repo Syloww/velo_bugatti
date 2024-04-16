@@ -7,6 +7,7 @@
     font-family: nexa;
     src: url(/fonts/Nexa-Heavy.ttf);
 }
+
 body{
     height: 100vh;
     background: linear-gradient(0deg, rgba(254,244,224,1) 0%, rgba(255,214,214,0.5627043053549545) 50%, rgba(188, 247, 226, 0.487) 100%);
@@ -48,6 +49,15 @@ header{
     background-color: rgb(255, 255, 255);
 }
 
+.telecharger{
+    margin: 30px;
+    text-align: center;
+    font-family: nexa;
+    padding: 20px;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #116809;
+}
 
 .dossier{
     display: flex;
@@ -62,6 +72,10 @@ header{
     justify-content: space-between;
     background-color: rgba(255, 255, 255, 0.633);
     border-radius: 20px;
+    transition: 0.3s;
+}
+.document:hover{
+    background-color: rgb(255, 255, 255);
 }
 .doc_info{
     display: flex;
