@@ -67,8 +67,15 @@ main{
     font-size: 17px;
     color: rgb(86, 86, 86);
 }
-
-
+.main_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.video{
+    border-radius: 100px 100px 0px 0px;
+    width: 300px;
+    height: 400px;
+}
 footer{
     padding: 50px;
     display: flex;
